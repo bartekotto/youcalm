@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">YouCalm</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="scan_finger">Scan Finger</string>
+    <string name="fP">TODO</string>
+    <string name="logo_of_finger">logo of finger</string>
+    <string name="fLabel">TextView</string>
+    <string name="bgg">TODO</string>
+    <string name="bottomMenu">TODO</string>
+    <string name="chatButton">Button</string>
+    <string name="calendarButton">Button</string>
+    <string name="title_activity_breath">BreathActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_breathe">Breathe</string>
+    <string name="title_education">Education</string>
+    <string name="title_logs">Logs</string>
+    <string name="title_scheme">Scheme</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="causeText">External/Internal trigger</string>
+    <string name="threatText">Perceived threat</string>
+    <string name="anxietyText">Anxiety</string>
+    <string name="behaviorText">Avoidance &amp;\n safety behaviors</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cause">causeButton</string>
+    <string name="threatButton">Button</string>
+    <string name="anxietyButton">Button</string>
+    <string name="SymptomsText">Physical/Cognitive\nSymptoms</string>
+    <string name="misintText">Misinterpretation</string>
+    <string name="first_arrow">first arrow</string>
+    <string name="second_arrow">second arrow</string>
+    <string name="leftdownarrow">TODO</string>
+    <string name="triggerDesc">A panic attack may be a one-time occurrence, \n
+        although many people experience repeat episodes. \n
+        Recurrent panic attacks are often triggered by a specific situation, \n
+        such as crossing a bridge or speaking in public—especially if that situation has caused a panic attack before.\n
+        Usually, the panic-inducing situation is one in which you feel endangered and unable to escape,\n
+        triggering the body’s fight-or-flight response.</string>
+    <string name="filler1">TextView</string>
+    <string name="breatheButton">Button</string>
+    <string name="breatheText">Start</string>
+    <string name="Rotations">Cycle \n amount</string>
+    <string name="Log">Log</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Button"
+        android:layout_width="233dp"
+        android:layout_height="225dp"
+        android:src="@mipmap/bigredbutton_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP \n I'M\nPANICKING!"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Button"
+        app:layout_constraintEnd_toEndOf="@+id/Button"
+        app:layout_constraintStart_toStartOf="@+id/Button"
+        app:layout_constraintTop_toTopOf="@+id/Button" />
+
+    <ImageView
+        android:id="@+id/Cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:rotation="90"
+        android:src="@drawable/bgg__2_"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/urPanicking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are probably panicking right now\ntry to stay calm,\nthis will soon pass,\nnothing bad is going to happen."
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Cover"
+        app:layout_constraintEnd_toEndOf="@+id/Cover"
+        app:layout_constraintStart_toStartOf="@+id/Cover"
+        app:layout_constraintTop_toTopOf="@+id/Cover"
+        tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
